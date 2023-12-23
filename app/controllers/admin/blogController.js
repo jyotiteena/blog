@@ -173,7 +173,7 @@ exports.deleteById = async (req, res) => {
             if (deleteData) {
                 res.status(200).json({
                     success: true,
-                    message: 'Record Edit Successfully'
+                    message: 'Record Delete Successfully'
                 })
             }
 
